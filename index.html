@@ -1,29 +1,218 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<head>
+<link rel="stylesheet" type="text/css" href="css/hover.css">
+<style type="text/css">
+body{
+    margin:0;
+}
+#header{
+    background-image:url('head.png');
+	width:100%;
+    height:202px;
+    background-position-x: -1px;
+}
+h3{
+    color: #8F470C;
+    font-family: Segoe UI Bold;
+    margin: 10% 25% 5%;
+}
+img{
+	width:100%;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+p{
+    margin-left: 30%;
+    margin-right: 15%;
+    height: 46%;
+    overflow: hidden;
+    line-height: 30px;
+    color: #9c4e0d;
+    text-align: justify;
+}
+.menu-left{
+	width: 10.28%;
+	margin: 7% 4% 0;
+	float: left;
+	padding: 0px;
+	font-size: 26px;
+    line-height: 35px;
+	text-align: center;
+	font-family: Segoe UI Bold;  
+    color: rgb(209,162,120); 
+}
+.menu-right{
+    width: 10.28%;
+    margin: 7% 4% 0;
+    float: right;
+    padding: 0px;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    font-family: Segoe UI Bold;
+    color: rgb(68,32,28);  
+}
+#info1{
+    /*background: -webkit-linear-gradient(#99633f, #835138); 
+    background: -o-linear-gradient(#99633f, #835138); 
+    background: -moz-linear-gradient(#99633f, #835138);
+    background: linear-gradient(#99633f, #835138); */
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Agarwal Bakers</title>
-  </head>
+}
+#info2{
+    background-color:#faf7ee;
+}
+#info3{
+}
+#work{
+    margin: 3.5% auto;
+    font-size: 40px;
+    width: 25%;
+    font-family: Segoe UI Light;
+    text-align: center;
+}
+.work{
+    width: 18%;
+    margin: 0 1% 0.5% 1%;
+    float: left;
+    text-align: center;                      
+    font-family: Segoe UI BOLD; 
+}
+.work-img:hover img{
+   opacity: .2;
+}
+.work-img:hover ul.hoverOnImage{
+   visibility:visible;
+}
+.hoverOnImage{
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -125px; 
+}
+.footer{
+    width: 100%;
+    height: 159px;
+    background-color: #3d2626;
+    float: left;
+}
+.footer-menu{
+    float: left;
+    width:30%;
+    margin: 2%;
+}
+.footer-menu ul{
+    color: #725858;
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding-left:8%;
+}
+.footer-socialMedia{
+    float:left;
+    width: 40%;
+}
+.footer-socialMedia ul{
+    width: 30%;
+    font-size: 21px;
+    margin: 12% 0;
+    text-align: right;
+    float: left;
+    color: #725858;
+    font-family: Segoe UI;
+}
+.footer-socialMedia img{
+   width: initial;
+   margin: 4%
+}
+.footer-email{
+    width: 30%;
+    float:right;
+}
+</style>
 
-  <body>
-  <h1 style="text-align: center;">
-    Website under construction.
-    </h1>
-    <img src="images/logo1.jpg" style="width: 100%; margin: 10% 30%; ">
-  </body>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Agarwal Bakers</title>
+
+<meta property="og:title" content="AgarwalBakers">
+
+<meta name="description" content="RoboVila is a Creativity and Innovation Club In Robotics. At RoboVila, we organise various Camps and workshops for School as well as college students.">
+
+<meta name="keywords" content="Robot,robotics,robot workshop,robotics workshop,best robotics workshop in kota, robotics workshop in rajasthan, robotics workshop in jaipur, robotics camp in kota, robotics camp in jaipur-kota region,robotics workshop in delhi ncr,top robotics company in delhi, top robotics company in rajasthan, robotics kota,robotics kota">
+
+<meta name="publisher" content="RoboVila">
+<meta name="copyright" content="RoboVila">
+
+</head>
+
+<body>
+
+	<div id = "header" >
+		<ul class="menu-left" >About Us
+		</ul>
+		<ul class="menu-left">Products
+		</ul>
+		<ul class="menu-right">Gallery
+		</ul>
+		<ul class="menu-right">Contact Us
+		</ul>
+	</div>
+    
+        <img src = "banner1.png" style="width:inherit"/>
+    <div id="info1" style="width:100%; height:400px;">
+        <div id ="info1_inner" style="margin:4%; height:100%;; border-bottom: solid 1px rgb(68,32,28);">
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left; margin-right:0.5%">
+                <img src="organic.png" style="width:18%; margin:5%; float:left;">
+                <h3>100% Organic</h3>
+                <p>All biscuits are made up of organic products only. No extra preservatives are mixed.</p>
+            </div>
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left; margin-right:0.5%;">
+                <img src="handmade.png" style="width:18%; margin:5%; float:left;">
+                <h3>Handmade</h3>
+                <p>We are having handmade buiscuits, made by proffesionals, in a very hygienic environment.</p>
+            </div>
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left">
+                <img src="staff.png" style="width:18%; margin:5%; float:left;">
+                <h3>Our Staff</h3>
+                <p>Our staff includes experienced employees with an experience of more than 30 years in this field.</p>
+            </div>
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left; margin-right:0.5%;">
+                <img src="profile.png" style="width:18%; margin:5%; float:left;">
+                <h3>Our Profile</h3>
+                <p>We are serving delicious handmade buiscuits across U.P. from last 35 years. </p>
+            </div>
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left; margin-right:0.5%;">
+                <img src="products.png" style="width:18%; margin:5%; float:left;">
+                <h3>Products</h3>
+                <p>We are specialised in producing Wheat , Semolina and special sugarfree buiscuits for diabetics.</p>
+            </div>
+            <div id ="info1_inner_content" style="width: 33%; height:50%; float:left">
+                <img src="equipments.png" style="width:18%; margin:5%; float:left;">
+                <h3>Equipments</h3>
+                <p>Packaging for gifting is done by machines, and special care of hygiene is done.</p>
+            </div>
+        
+        </div>
+    </div>
+    <div id="info2" style="width:100%; height:300px; margin-top:4%;color: rgb(68,32,28);">
+   <!--     <div class="info2_upper" style="width:50%; height: 50%; Padding:5%;">
+            <img src = "img1.png" style="border-radius: 100%; border: solid 5px #fff;; width:20%;float: left;"/>
+            <h3> Premium Quality</h3>
+            <p>hgdjhf jhv kj jv kjk jgk kjg kj jgj kgu kg g gjg jg </p>
+        </div> -->
+        <div style="padding : 5%; font-size: 20px; font-family: Segoe UI Light ">
+           <h2 style="margin:0; font-family: Segoe UI Light; Font-weight: bold;"> For Home Delivery</h2><br> contact us @ Mayank Agarwal : +91-9897391404
+        </div>
+        <div style="width: 100%; text-align: center; color:#9c4e0d"> Agarwal Bakers &copy; 2014</div>
+
+
+    </div> 
+        
+   
+</body>
 </html>
